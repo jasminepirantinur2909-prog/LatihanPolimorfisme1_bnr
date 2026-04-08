@@ -29,7 +29,7 @@ class ImageProcessor
             Console.WriteLine(" Ukuran tetap (100%). Tidak ada perubahan");
         }
     }
-    public void Rezise(int presentance, int lebar, int tinggi)
+    public void Rezise( int lebar, int tinggi)
     {
         {
             Console.WriteLine($" Mengubah ukuran gambar menjadi {lebar}px X {tinggi}px");
